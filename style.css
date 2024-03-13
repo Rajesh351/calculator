@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #bfd4e7;
+}
+.row{
+    margin: 8px 0px;
+}
+.row  input{
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+h1{
+    text-align: center;
+}
+
+.mx-auto{
+    margin: auto;
+}
+.flex{
+ display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.raj{
+    background-color: #2c577e;
+    height: 470px;
+    width: 470px;
+    box-shadow: #2c577e 34px;
+    justify-content: center;
+    
+}
+.button:hover{
+     background-color: antiquewhite;
+     box-shadow: 0ch;
+}
+
